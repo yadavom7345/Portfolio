@@ -13,24 +13,24 @@ const Projects = () => {
       description: "A real-time AI assistant that can help you with your daily tasks and queries.",
       image: omni,
       techStack: ["React", "API", "JavaScript"],
-      codeLink: "#",
-      demoLink: "#"
+      codeLink: "https://github.com/yadavom7345/Omni_Assistant",
+      demoLink: "https://omni-assistant-734.vercel.app/"
     },
     {
       title: "Portfolio Website",
       description: "A portfolio website for a developer with a sleek design, responsive design, and SEO optimization.",
       image: portfolio,
       techStack: ["React", "CSS Grid", "UI/UX"],
-      codeLink: "#",
-      demoLink: "#"
+      codeLink: "https://github.com/yadavom7345/Portfolio",
+      demoLink: "https://portfolio-git-main-yadavom7345s-projects.vercel.app/"
     },
     {
       title: "Capstone Project",
       description: "A fully responsive and visually appealing website designed to showcase my expertise in HTML and CSS.",
       image: capstone,
       techStack: ["HTML", "CSS", "JS"],
-      codeLink: "#",
-      demoLink: "#"
+      codeLink: "https://github.com/yadavom7345/S-W_Capstone_Project",
+      demoLink: "https://s-w-capstone-project.vercel.app/"
     }
   ];
 

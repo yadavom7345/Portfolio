@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionHeader from './SectionHeader';
+import profile from '../assets/profile.png'
 
 const About = () => {
   const tags = ['Frontend', 'UI/UX', 'Web Design', 'React', 'JavaScript'];
@@ -9,7 +10,7 @@ const About = () => {
       <div className="about-section">
         <div className="about-image-container">
           <div className="about-image-wrapper">
-            <img src="../src/assets/profile.PNG" alt="My Profile" className="about-image" />
+            <img src={profile} alt="My Profile" className="about-image" />
             <div className="about-image-overlay"></div>
             <div className="about-image-shape"></div>
           </div>

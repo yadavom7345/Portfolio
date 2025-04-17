@@ -1,9 +1,6 @@
 import React from 'react';
-import { useTheme } from '../context/ThemeContext';
 
 const SocialIcons = () => {
-  const { darkMode } = useTheme();
-  
   return (
     <div className="social-icons">
       <a href="https://github.com/yadavom7345" target="_blank" rel="noopener noreferrer" className="social-icon github" aria-label="GitHub">
@@ -37,11 +34,11 @@ const SocialIcons = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          color: ${darkMode ? '#e2e8f0' : '#4a5568'};
-          background-color: ${darkMode ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.05)'};
+          color: #e2e8f0;
+          background-color: rgba(255, 255, 255, 0.1);
           border-radius: 50%;
           transition: transform 0.3s, background-color 0.3s, color 0.3s;
-          box-shadow: ${darkMode ? '0 4px 6px rgba(0, 0, 0, 0.4)' : '0 4px 6px rgba(0, 0, 0, 0.1)'};
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
         }
         
         .social-icon:hover {

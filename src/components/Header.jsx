@@ -1,9 +1,6 @@
-import ThemeToggle from './ThemeToggle';
 import React from 'react';
 
-
 const Header = () => {
-
   return (
     <header>
       <nav>
@@ -14,9 +11,6 @@ const Header = () => {
           <a href="#about">About Me</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-        </div>
-        <div className="nav-actions">
-          <ThemeToggle />
         </div>
       </nav>
     </header>

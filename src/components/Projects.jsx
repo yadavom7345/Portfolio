@@ -2,9 +2,9 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import SectionHeader from './SectionHeader';
 
-import omni from '../assets/omni.png'
-import portfolio from '../assets/portfolio.png'
-import capstone from '../assets/capstone.png'
+import omni from '../Images/omni.png'
+import portfolio from '../Images/portfolio.png'
+import capstone from '../Images/capstone.png'
 
 const Projects = () => {
   const projects = [

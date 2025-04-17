@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeader from './SectionHeader';
-import profile from '../assets/profile.png'
+import profile from '../Images/profile.png'
 
 const About = () => {
   const tags = ['Frontend', 'UI/UX', 'Web Design', 'React', 'JavaScript'];
